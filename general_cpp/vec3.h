@@ -23,7 +23,7 @@ struct Vector3d {
     double   dot  (const Vector3d &other) const;
     Vector3d cross(const Vector3d &other) const;
 
-    Vector3d oriente(const Vector3d &axis);
+    Vector3d orient(const Vector3d &axis);
 };
 
 Vector3d operator+  (const Vector3d &first, const Vector3d &second);
@@ -164,7 +164,7 @@ Vector3d oriented(Vector3d axis, Vector3d other) {
     return other;
 }
 
-Vector3d Vector3d::oriente(const Vector3d &axis) {
+Vector3d Vector3d::orient(const Vector3d &axis) {
     if (axis.dot(*this) < 0) {
         *this *= -1.0;
     }
