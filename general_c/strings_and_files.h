@@ -1,7 +1,7 @@
 #ifndef GENERAL_STRINGS_AND_FILES
 #define GENERAL_STRINGS_AND_FILES
 
-#include "general_common.h"
+#include "common.h"
 
 #include <assert.h>
 #include <ctype.h>

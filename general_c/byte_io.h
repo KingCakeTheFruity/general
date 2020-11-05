@@ -1,7 +1,7 @@
 #ifndef GENERAL_BYTE_IO
 #define GENERAL_BYTE_IO
 
-#include "general_common.h"
+#include "common.h"
 
 #include <stdio.h>
 #include <string.h>

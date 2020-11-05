@@ -1,7 +1,7 @@
 #ifndef GENERAL_DEBUG
 #define GENERAL_DEBUG
 
-#include "general_common.h"
+#include "common.h"
 
 //=============================================================================
 //<KCTF> Debug ================================================================

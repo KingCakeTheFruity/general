@@ -1,4 +1,4 @@
-#include "general.h"
+#include "general_c.h"
 
 int main() {
 

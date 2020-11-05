@@ -1,8 +1,6 @@
 #ifndef GENERAL_RANDOM
 #define GENERAL_RANDOM
 
-#include "general_common.h"
-
 #include <time.h>
 
 //=============================================================================

@@ -1,7 +1,7 @@
 #ifndef GENERAL_HASH
 #define GENERAL_HASH
 
-#include "general_common.h"
+#include "common.h"
 
 //=============================================================================
 //<KCTF> Hash =================================================================
