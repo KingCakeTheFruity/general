@@ -1,10 +1,10 @@
-#include "general_cpp/vec3.h"
+#include "general_cpp/vec2.h"
 
 int main() {
-	Vector3d a;
-	Vector3d b(1, 2, 3);
+	Vector3d a(1, 4);
+	Vector3d b(5, -7);
 
-	std::cout << a + b << '\n';
+	// std::cout << rot_clockwise(a, 3.14159206/2) << '\n';
 
 	printf("done.\n");
 	return 0;
