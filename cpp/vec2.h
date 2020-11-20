@@ -1,5 +1,5 @@
-#ifndef GENERAL_VEC
-#define GENERAL_VEC
+#ifndef GENERAL_VEC2D
+#define GENERAL_VEC2D
 
 #include <cmath>
 #include <iostream>
@@ -173,4 +173,4 @@ Vector3d rot_clockwise(const Vector3d vec, double ang) {
     return {x, y};
 }
 
-#endif // GENERAL_VEC3
+#endif // GENERAL_VEC2D

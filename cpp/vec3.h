@@ -1,5 +1,5 @@
-#ifndef GENERAL_VEC
-#define GENERAL_VEC
+#ifndef GENERAL_VEC3D
+#define GENERAL_VEC3D
 
 #include <cmath>
 #include <iostream>
@@ -200,4 +200,4 @@ Vector3d rotate(const Vector3d vec, const Vector3d rotation) {
     return rotz(roty(rotx(vec, rotation.x), rotation.y), rotation.z);
 }
 
-#endif // GENERAL_VEC3
+#endif // GENERAL_VEC3D
